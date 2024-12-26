@@ -148,6 +148,11 @@ body {
     transform: translateX(-150%);
     animation: about-text-animation 1s ease-in-out forwards;
 }
+@keyframes about-text-animation{
+    100%{
+        transform: translate(0);
+    }
+}
 .about-image img{
     display: block;
     height: 400px;
@@ -159,11 +164,7 @@ body {
     animation: about-image-animation 1s ease-in-out forwards;
 
 }
-@keyframes about-text-animation{
-    100%{
-        transform: translate(0);
-    }
-}
+
 
 /* ######################## Food Category ##################### */
 #food{
